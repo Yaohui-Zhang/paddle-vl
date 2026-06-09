@@ -1,0 +1,8 @@
+trust-remote-code: true
+gpu-memory-utilization: 0.80
+max-model-len: 16384
+max-num-batched-tokens: 131072
+max-num-seqs: 512
+limit-mm-per-prompt: '{"image": 1}'
+api-server-count: 8
+disable-log-requests: true
